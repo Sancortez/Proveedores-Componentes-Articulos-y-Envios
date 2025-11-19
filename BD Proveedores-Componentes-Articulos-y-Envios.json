@@ -1,57 +1,55 @@
-PROVEEDORES = {
-P#	PNOMBRE	CATEGORIA	CIUDAD
-P1	CARLOS	20	SEVILLA
-P2	JUAN	10	MADRID
-P3	JOSE	30	SEVILLA
-P4	INMA	20	SEVILLA
-P5	EVA	30	CACERES
-}
+{
+  "PROVEEDORES": [
+    { "P": "P1", "PNOMBRE": "CARLOS", "CATEGORIA": 20, "CIUDAD": "SEVILLA" },
+    { "P": "P2", "PNOMBRE": "JUAN", "CATEGORIA": 10, "CIUDAD": "MADRID" },
+    { "P": "P3", "PNOMBRE": "JOSE", "CATEGORIA": 30, "CIUDAD": "SEVILLA" },
+    { "P": "P4", "PNOMBRE": "INMA", "CATEGORIA": 20, "CIUDAD": "SEVILLA" },
+    { "P": "P5", "PNOMBRE": "EVA", "CATEGORIA": 30, "CIUDAD": "CACERES" }
+  ],
 
-COMPONENTES = {
-C#	CNOMBRE	COLOR	PESO	CIUDAD
-C1	X3A	ROJO	12	SEVILLA
-C2	B85	VERDE	17	MADRID
-C3	C4B	AZUL	17	MALAGA
-C4	C4B	ROJO	14	SEVILLA
-C5	VT8	AZUL	12	MADRID
-C6	C30	ROJO	19	SEVILLA
-}
+  "COMPONENTES": [
+    { "C": "C1", "CNOMBRE": "X3A", "COLOR": "ROJO", "PESO": 12, "CIUDAD": "SEVILLA" },
+    { "C": "C2", "CNOMBRE": "B85", "COLOR": "VERDE", "PESO": 17, "CIUDAD": "MADRID" },
+    { "C": "C3", "CNOMBRE": "C4B", "COLOR": "AZUL", "PESO": 17, "CIUDAD": "MALAGA" },
+    { "C": "C4", "CNOMBRE": "C4B", "COLOR": "ROJO", "PESO": 14, "CIUDAD": "SEVILLA" },
+    { "C": "C5", "CNOMBRE": "VT8", "COLOR": "AZUL", "PESO": 12, "CIUDAD": "MADRID" },
+    { "C": "C6", "CNOMBRE": "C30", "COLOR": "ROJO", "PESO": 19, "CIUDAD": "SEVILLA" }
+  ],
 
-ARTICULOS = {
-T#	TNOMBRE	CIUDAD
-T1	CLASIFICADORA	MADRID
-T2	PERFORADORA	MALAGA
-T3	LECTORA	CACERES
-T4	CONSOLA	CACERES
-T5	MEZCLADORA	SEVILLA
-T6	TERMINAL	BARCELONA
-T7	CINTA	SEVILLA
-}
+  "ARTICULOS": [
+    { "T": "T1", "TNOMBRE": "CLASIFICADORA", "CIUDAD": "MADRID" },
+    { "T": "T2", "TNOMBRE": "PERFORADORA", "CIUDAD": "MALAGA" },
+    { "T": "T3", "TNOMBRE": "LECTORA", "CIUDAD": "CACERES" },
+    { "T": "T4", "TNOMBRE": "CONSOLA", "CIUDAD": "CACERES" },
+    { "T": "T5", "TNOMBRE": "MEZCLADORA", "CIUDAD": "SEVILLA" },
+    { "T": "T6", "TNOMBRE": "TERMINAL", "CIUDAD": "BARCELONA" },
+    { "T": "T7", "TNOMBRE": "CINTA", "CIUDAD": "SEVILLA" }
+  ],
 
-ENVIOS = {
-P#	C#	T#	CANTIDAD
-P1	C1	T1	200
-P1	C1	T4	700
-P2	C3	T1	400
-P2	C3	T2	200
-P2	C3	T3	200
-P2	C3	T4	500
-P2	C3	T5	600
-P2	C3	T6	400
-P2	C3	T7	800
-P2	C5	T2	100
-P3	C3	T1	200
-P3	C4	T2	500
-P4	C6	T3	300
-P4	C6	T7	300
-P5	C2	T2	200
-P5	C2	T4	100
-P5	C5	T4	500
-P5	C5	T7	100
-P5	C6	T2	200
-P5	C1	T4	100
-P5	C3	T4	200
-P5	C4	T4	800
-P5	C5	T5	400
-P5	C6	T4	500
+  "ENVIOS": [
+    { "P": "P1", "C": "C1", "T": "T1", "CANTIDAD": 200 },
+    { "P": "P1", "C": "C1", "T": "T4", "CANTIDAD": 700 },
+    { "P": "P2", "C": "C3", "T": "T1", "CANTIDAD": 400 },
+    { "P": "P2", "C": "C3", "T": "T2", "CANTIDAD": 200 },
+    { "P": "P2", "C": "C3", "T": "T3", "CANTIDAD": 200 },
+    { "P": "P2", "C": "C3", "T": "T4", "CANTIDAD": 500 },
+    { "P": "P2", "C": "C3", "T": "T5", "CANTIDAD": 600 },
+    { "P": "P2", "C": "C3", "T": "T6", "CANTIDAD": 400 },
+    { "P": "P2", "C": "C3", "T": "T7", "CANTIDAD": 800 },
+    { "P": "P2", "C": "C5", "T": "T2", "CANTIDAD": 100 },
+    { "P": "P3", "C": "C3", "T": "T1", "CANTIDAD": 200 },
+    { "P": "P3", "C": "C4", "T": "T2", "CANTIDAD": 500 },
+    { "P": "P4", "C": "C6", "T": "T3", "CANTIDAD": 300 },
+    { "P": "P4", "C": "C6", "T": "T7", "CANTIDAD": 300 },
+    { "P": "P5", "C": "C2", "T": "T2", "CANTIDAD": 200 },
+    { "P": "P5", "C": "C2", "T": "T4", "CANTIDAD": 100 },
+    { "P": "P5", "C": "C5", "T": "T4", "CANTIDAD": 500 },
+    { "P": "P5", "C": "C5", "T": "T7", "CANTIDAD": 100 },
+    { "P": "P5", "C": "C6", "T": "T2", "CANTIDAD": 200 },
+    { "P": "P5", "C": "C1", "T": "T4", "CANTIDAD": 100 },
+    { "P": "P5", "C": "C3", "T": "T4", "CANTIDAD": 200 },
+    { "P": "P5", "C": "C4", "T": "T4", "CANTIDAD": 800 },
+    { "P": "P5", "C": "C5", "T": "T5", "CANTIDAD": 400 },
+    { "P": "P5", "C": "C6", "T": "T4", "CANTIDAD": 500 }
+  ]
 }
